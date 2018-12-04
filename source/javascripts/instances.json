@@ -1,0 +1,28 @@
+{
+  "instances": [
+    {
+      "name": "Fediverse.blog",
+      "description": "Generalistic instance.",
+      "url": "https://fediverse.blog"
+    },
+    {
+      "name": "Plume on Mastodon.Host",
+      "description": "A public Plume instance by the Mastodon.host team",
+      "url": "https://plume.mastodon.host"
+    },
+    {
+      "name": "Les Nouvelles d'Ombreport",
+      "description": "A public Plume instance by the Mastodon.host team",
+      "url": "https://plume.ombreport.info/"
+    },
+    {
+      "name": "plume.hostux.coffee",
+      "url": "https://plume.hostux.coffee"
+    },
+    {
+      "name": "Plume OpenAlgeria",
+      "description": "A Plume testing instance, by the OpenAlgeria team",
+      "url": "https://plume.oa-dev.com/"
+    }
+  ]
+}
