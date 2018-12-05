@@ -25,8 +25,7 @@ header {
 
   img {
     height: 8em;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row: 1 / 3;
     grid-column: 2;
   }
 }
@@ -166,4 +165,47 @@ footer {
   background: $gray;
   margin-top: 10vh;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  body > main > * {
+    padding: 0 5vw;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 20vw;
+    text-align: center;
+
+    img {
+      height: 4em;
+      grid-row: 2;
+      grid-column: 1;
+      margin: auto;
+    }
+  }
+
+  main nav {
+    padding: 0;
+    text-align: center;
+    ul {
+      flex-direction: column;
+
+      li a {
+        padding: 1em;
+        &:hover {
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+
+  .grid {
+    grid-template-columns: 100%;
+
+    & > h2 {
+      grid-column: 1;
+    }
+  }
 }
