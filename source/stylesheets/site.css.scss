@@ -1,6 +1,7 @@
 $plume: #7765e3;
 $plumedark: #6457a6;
 $gray: #F4F4F4;
+$black: #25213c
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
@@ -74,6 +75,7 @@ section {
 
 .card {
   background: $gray;
+  color: $black;
   padding: 1em;
   margin: 1em 5vw;
   display: flex;
@@ -163,6 +165,7 @@ section > h2 {
 footer {
   padding: 5em 5vw;
   background: $gray;
+  color: $black;
   margin-top: 10vh;
   text-align: center;
 }
