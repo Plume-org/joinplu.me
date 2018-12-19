@@ -12,7 +12,7 @@
     },
     {
       "name": "Les Nouvelles d'Ombreport",
-      "description": "A public Plume instance by the Mastodon.host team",
+      "description": "A public Plume instance, served by Mastodon.host",
       "url": "https://plume.ombreport.info/"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Plume.svnet.fr",
-      "description": "A generalistic Plume instance hosted in EU, open to all.",
+      "description": "A generalistic Plume instance hosted in EU, open to all",
       "url": "https://plume.svnet.fr"
     }
   ]
