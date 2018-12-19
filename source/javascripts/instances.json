@@ -16,13 +16,23 @@
       "url": "https://plume.ombreport.info/"
     },
     {
-      "name": "plume.hostux.coffee",
+      "name": "Plume.hostux.coffee",
       "url": "https://plume.hostux.coffee"
     },
     {
       "name": "Plume OpenAlgeria",
       "description": "A Plume testing instance, by the OpenAlgeria team",
-      "url": "https://plume.oa-dev.com/"
+      "url": "https://plume.oa-dev.com"
+    },
+    {
+      "name": "Cafe.Sunbeam.City",
+      "description": "An instance hosted by the Sunbeam.City cooperative",
+      "url": "https://cafe.sunbeam.city"
+    },
+    {
+      "name": "Fediverse.blog",
+      "description": "A generalistic Plume instance hosted in EU, open to all.",
+      "url": "https://plume.svnet.fr"
     }
   ]
 }
