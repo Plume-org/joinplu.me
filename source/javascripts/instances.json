@@ -2,27 +2,13 @@
   "instances": [
     {
       "name": "Fediverse.blog",
-      "description": "Generalistic instance.",
+      "description": "A generalistic instance for people to see what Plume is like",
       "url": "https://fediverse.blog"
     },
     {
       "name": "Plume on Mastodon.Host",
-      "description": "A public Plume instance by the Mastodon.host team",
+      "description": "A public Plume instance served by the team behind Mastodon.host",
       "url": "https://plume.mastodon.host"
-    },
-    {
-      "name": "Les Nouvelles d'Ombreport",
-      "description": "A public Plume instance, served by Mastodon.host",
-      "url": "https://plume.ombreport.info/"
-    },
-    {
-      "name": "Plume.hostux.coffee",
-      "url": "https://plume.hostux.coffee"
-    },
-    {
-      "name": "Plume OpenAlgeria",
-      "description": "A Plume testing instance, by the OpenAlgeria team",
-      "url": "https://plume.oa-dev.com"
     },
     {
       "name": "Cafe.Sunbeam.City",
@@ -30,8 +16,25 @@
       "url": "https://cafe.sunbeam.city"
     },
     {
-      "name": "Plume.svnet.fr",
-      "description": "A generalistic Plume instance hosted in EU, open to all",
+      "name": "Les Nouvelles d'Ombreport",
+      "url": "https://plume.ombreport.info"
+    },
+    {
+      "name": "plume.hostux.coffee",
+      "url": "https://plume.hostux.coffee"
+    },
+    {
+      "name": "catlife.drycat.fr",
+      "url": "https://catlife.drycat.fr"
+    },
+    {
+      "name": "Plume OpenAlgeria",
+      "description": "An experimental Plume instance, by the OpenAlgeria team",
+      "url": "https://plume.oa-dev.com"
+    },
+    {
+      "name": "Plume.Svnet.fr",
+      "description": "A Plume instance running on libre software hosted in France",
       "url": "https://plume.svnet.fr"
     }
   ]
