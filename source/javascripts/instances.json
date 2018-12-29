@@ -7,7 +7,7 @@
     },
     {
       "name": "Plume on Mastodon.Host",
-      "description": "A public Plume instance served by the team behind Mastodon.host",
+      "description": "A Plume instance served by the team behind Mastodon.host",
       "url": "https://plume.mastodon.host"
     },
     {
@@ -31,6 +31,10 @@
       "name": "Plume OpenAlgeria",
       "description": "An experimental Plume instance, by the OpenAlgeria team",
       "url": "https://plume.oa-dev.com"
+    },
+     {
+      "name": "blog.famille-link.fr",
+      "url": "blog.famille-link.fr"
     },
     {
       "name": "Plume.Svnet.fr",
