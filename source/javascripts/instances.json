@@ -28,6 +28,10 @@
       "url": "https://catlife.drycat.fr"
     },
     {
+      "name": "lorem.club",
+      "url": "https://lorem.club"
+    },
+    {
       "name": "Plume OpenAlgeria",
       "description": "An experimental Plume instance, by the OpenAlgeria team",
       "url": "https://plume.oa-dev.com"
