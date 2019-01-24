@@ -1,8 +1,7 @@
 # JoinPlu.me
 
-A website to explain what Plume is, and to guide newcomers and people who would
-like to contribute.
+Un sitio web para explicar lo que es Plume, y para guiar a los recién llegados y a las personas que quieran contribuir.
 
-It is using middleman.
+Está usando intermediarios.
 
-TODO: automatic deployment https://github.com/hovancik/middleman-github-deploy
+TODO: despliegue automático https://github.com/hovancik/middleman-github-deploy

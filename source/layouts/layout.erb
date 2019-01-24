@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
+    <!-- Usar el título de la portada de una página si tiene uno -->
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
     <script src="https://unpkg.com/feather-icons"></script>
@@ -12,9 +12,9 @@
   <body>
     <%= yield %>
     <footer>
-      Website under the GPL 3.0 license.
+      Sitio web bajo la licencia GPL 3.0.
       &mdash;
-      <a href="https://github.com/Plume-org/joinplu.me">Source code of this website</a>
+      <a href="https://github.com/Plume-org/joinplu.me">Código fuente de este sitio web</a>
     </footer>
     <script>feather.replace()</script>
     <%= javascript_include_tag "site" %>

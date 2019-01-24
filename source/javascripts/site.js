@@ -17,6 +17,6 @@ if (instancesList) {
       }
     })
     .catch(e => {
-      instancesList.appendChild(document.createTextNode('Error retriving instances'))
+      instancesList.appendChild(document.createTextNode('Instancias de recuperación de errores'))
     })
 }

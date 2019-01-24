@@ -2,17 +2,17 @@
   "instances": [
     {
       "name": "Fediverse.blog",
-      "description": "A generalistic instance for people to see what Plume is like",
+      "description": "Un ejemplo general para que la gente vea cómo es Plume",
       "url": "https://fediverse.blog"
     },
     {
       "name": "Plume on Mastodon.Host",
-      "description": "A Plume instance served by the team behind Mastodon.host",
+      "description": "Una instancia de Plume servida por el equipo detrás de Mastodon.host",
       "url": "https://plume.mastodon.host"
     },
     {
       "name": "Cafe.Sunbeam.City",
-      "description": "An instance hosted by the Sunbeam.City cooperative",
+      "description": "Una instancia organizada por la cooperativa Sunbeam.City",
       "url": "https://cafe.sunbeam.city"
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "Plume OpenAlgeria",
-      "description": "An experimental Plume instance, by the OpenAlgeria team",
+      "description": "Una instancia experimental de Plume, por el equipo de OpenAlgeria",
       "url": "https://plume.oa-dev.com"
     },
      {
@@ -42,7 +42,7 @@
     },
     {
       "name": "Plume.Svnet.fr",
-      "description": "A Plume instance running on libre software hosted in France",
+      "description": "Una instancia de Plume que funciona con software libre alojado en Francia",
       "url": "https://plume.svnet.fr"
     }
   ]
