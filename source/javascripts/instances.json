@@ -12,7 +12,7 @@
     },
     {
       "name": "Cafe.Sunbeam.City",
-      "description": "An instance hosted by the Sunbeam.City cooperative",
+      "description": "A part of the Sunbeam.City cooperative",
       "url": "https://cafe.sunbeam.city"
     },
     {
@@ -29,12 +29,12 @@
     },
     {
       "name": "DeepspaceRose.garden",
-      "description": "A small instance for writers who explore, and curious readers",
+      "description": "A small instance for writers who explore, and their curious readers",
       "url": "https://deepspacerose.garden"
     },
     {
       "name": "Lorem.Club",
-      "description": "A welcoming Plume instance for everyone run by enthusiasts",
+      "description": "A welcoming Plume instance for everyone, run by enthusiasts",
       "url": "https://lorem.club"
     },
     {
