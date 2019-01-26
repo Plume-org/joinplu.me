@@ -28,7 +28,13 @@
       "url": "https://catlife.drycat.fr"
     },
     {
-      "name": "lorem.club",
+      "name": "DeepspaceRose.garden",
+      "description": "A small instance for writers who explore, and curious readers",
+      "url": "https://deepspacerose.garden"
+    },
+    {
+      "name": "Lorem.Club",
+      "description": "A welcoming Plume instance for everyone run by enthusiasts",
       "url": "https://lorem.club"
     },
     {
