@@ -12,9 +12,9 @@
   <body>
     <%= yield %>
     <footer>
-      Website under the GPL 3.0 license.
+      <%= _('Website under the GPL 3.0 license.') %>
       &mdash;
-      <a href="https://github.com/Plume-org/joinplu.me">Source code of this website</a>
+      <a href="https://github.com/Plume-org/joinplu.me"><%= _('Source code of this website') %></a>
     </footer>
     <script>feather.replace()</script>
     <%= javascript_include_tag "site" %>

@@ -3,3 +3,5 @@
 .DS_Store
 .sass-cache
 build/
+.po~
+translations

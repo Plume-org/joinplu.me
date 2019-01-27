@@ -3,8 +3,8 @@ title: 'Plume: A federated blogging engine'
 ---
 
 <header>
-  <h1>Plume</h1>
-  <h2>A federated blogging application</h2>
+  <h1><%= _('Plume') %></h1>
+  <h2><%= _('A federated blogging application') %></h2>
   <img src="/images/logo.png"/>
 </header>
 
@@ -15,10 +15,10 @@ title: 'Plume: A federated blogging engine'
     <div class="card">
       <span class="icon"><i data-feather="globe"></i></span>
       <main>
-        <h2>Write once, publish everywhere</h2>
+        <h2><%= _('Write once, publish everywhere') %></h2>
         <p>
-       Plume is not a single website, but an entire interconnected, yet independent network of what we call <em>instances</em>.
-       You write content from your own instance, but anyone else on any other Plume instance can enjoy your stories too.
+          <%= _('Plume is not a single website, but an entire interconnected, yet independent network of what we call <em>instances</em>.') %>
+          <%= _('You write content from your own instance, but anyone else on any other Plume instance can enjoy your stories too.') %>
         </p>
       </main>
     </div>
@@ -26,10 +26,10 @@ title: 'Plume: A federated blogging engine'
     <div class="card">
       <span class="icon"><i data-feather="message-circle"></i></span>
       <main>
-        <h2>Social blogging</h2>
+        <h2><%= _('Social blogging') %></h2>
         <p>
-        When we write, it is, most of the time, to share something with other people.
-        Plume has many features that allow the exchange between writers and readers to be bi-directional from the get-go.
+          <%= _('When we write, it is, most of the time, to share something with other people.') %>
+          <%= _('Plume has many features that allow the exchange between writers and readers to be bi-directional from the get-go.') %>
         </p>
       </main>
     </div>
@@ -37,88 +37,69 @@ title: 'Plume: A federated blogging engine'
     <div class="card">
       <span class="icon"><i data-feather="users"></i></span>
       <main>
-        <h2>Collaborative writing</h2>
+        <h2><%= _('Collaborative writing') %></h2>
         <p>
-          Plume also makes it easy to collaborate on an article. Since blogs are not
-          limited to one author, many people can write in the same blog, improve each other's work,
-          to get to the best final result.
+          <%= _('Plume also makes it easy to collaborate on an article. Since blogs are not limited to one author, many people can write in the same blog, improve each other\'s work, to get to the best final result.') %>
         </p>
       </main>
     </div>
   </section>
 
   <section>
-    <h2>Find an instance</h2>
+    <h2><%= _('Find an instance') %></h2>
     <ul id="instances">
     </ul>
   </section>
 
   <section class="grid">
-    <h2>Enter the Fediverse</h2>
+    <h2><%= _('Enter the Fediverse') %></h2>
     <div class="card vertical">
       <span class="icon"><i data-feather="share-2"></i></span>
       <main>
-        <h3>Not just Plume</h3>
+        <h3><%= _('Not just Plume') %></h3>
         <p>
-        Plume instances form one part of a huge network, collectively called the Fediverse. It is made up
-        of many instances, servers with different specifications and policies, each one running a specific application,
-        with different purposes, not always Plume.
-        It means that for instance, Plume is able to communicate with microblogging apps
-        like <a href="https://joinmastodon.org">Mastodon</a>, or
-         <a href="https://pleroma.social/">Pleroma</a>.
-        Even other blogging apps which support federation, such as <a href="https://writefreely.org">WriteFreely</a> can also
-        communicate with Plume! It means that you can comment and like Plume articles
-        from any of these other instances.
+          <%= _('Plume instances form one part of a huge network, collectively called the Fediverse. It is made up of many instances, servers with different specifications and policies, each one running a specific application, with different purposes, not always Plume. It means that for instance, Plume is able to communicate with microblogging apps like <a href="https://joinmastodon.org">Mastodon</a>, or <a href="https://pleroma.social/">Pleroma</a>. Even other blogging apps which support federation, such as <a href="https://writefreely.org">WriteFreely</a> can also communicate with Plume! It means that you can comment and like Plume articles from any of these other instances.') %>
         </p>
-        <a href="">Learn more about the Fediverse</a>
+        <a href=""><%= _('Learn more about the Fediverse') %></a>
       </main>
     </div>
 
     <div class="card vertical">
       <span class="icon"><i data-feather="user"></i></span>
       <main>
-        <h3>Great diversity</h3>
+        <h3><%= _('Great diversity') %></h3>
         <p>
-          Each instance is hosted and moderated by different peoples across varied locations of the world,
-          resulting in diverse rules, thematics and ambiance that it focuses on.
-          Thus one given instance can suit you better than another, depending on your opinions and interests.
+          <%= _('Each instance is hosted and moderated by different peoples across varied locations of the world, resulting in diverse rules, thematics and ambiance that it focuses on. Thus one given instance can suit you better than another, depending on your opinions and interests.') %>
         </p>
         <p>
-          And if no existing instance makes you feel at home, you can very well create your own, if you are a bit
-          adventureous.
+          <%= _('And if no existing instance makes you feel at home, you can very well create your own, if you are a bit adventureous.') %>
         </p>
-        <a href="#instances">Find your dream instance</a>
+        <a href="#instances"><%= _('Find your dream instance') %></a>
       </main>
     </div>
 
     <div class="card vertical">
       <span class="icon"><i data-feather="lock"></i></span>
       <main>
-        <h3>A solid network</h3>
+        <h3><%= _('A solid network') %></h3>
         <p>
-          Because the Fediverse is mostly backed by volunteers, and not investors,
-          it is resilient to economic problems. And because of its decentralized nature it is
-          also harder to censor than traditional platforms.
+          <%= _('Because the Fediverse is mostly backed by volunteers, and not investors, it is resilient to economic problems. And because of its decentralized nature it is also harder to censor than traditional platforms.') %>
         </p>
-        <p>And even if one instance happens to go down, the rest of the network will continue to work uninterrupted.</p>
+        <p><%= _('And even if one instance happens to go down, the rest of the network will continue to work uninterrupted.') %></p>
       </main>
     </div>
 
     <div class="card vertical">
       <span class="icon"><i data-feather="heart"></i></span>
       <main>
-        <h3>Open to everyone</h3>
+        <h3><%= _('Open to everyone') %></h3>
         <p>
-          Plume is a libre software, based on open standards, like
-          <a href="https://activitypub.rocks">ActivityPub</a>,
-          which means you can help making it better.
+          <%= _('Plume is a libre software, based on open standards, like <a href="https://activitypub.rocks">ActivityPub</a>, which means you can help making it better.') %>
         </p>
         <p>
-          We are not only welcoming coders, but really anyone who wants to help: translators,
-          user experience designers, people with communication skills, or anybody else who feels like they can offer
-          something to move the project ahead!
+          <%= _('We are not only welcoming coders, but really anyone who wants to help: translators, user experience designers, people with communication skills, or anybody else who feels like they can offer something to move the project ahead!') %>
         </p>
-        <a href="https://contribute.joinplu.me">Discover how you can help</a>
+        <a href="https://contribute.joinplu.me"><%= _('Discover how you can help') %></a>
       </main>
     </div>
   </section>
