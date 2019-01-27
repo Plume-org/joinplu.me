@@ -1,25 +1,20 @@
-require "gettext"
-require "middleman-core/sitemap/extensions/proxies"
+require "i18n"
 
-GetText::bindtextdomain 'joinplume', { path: 'translations' }
+I18n::Backend::Simple.include(I18n::Backend::Gettext)
+I18n.load_path << Dir["po/*.po"]  # Load all PO file in current directory
 
-ready do
-  File.readlines('po/LINGUAS').each do |lang|
-    lang = lang.strip
-    GetText::set_locale lang
-    puts(GetText::_("A federated blogging application"))
-    sitemap.resources.select{ |r| !r.respond_to?(:target_resource) && r.ext == ".html" }.each do |res|
-      proxy "#{lang}/#{res.destination_path}", res.path, {}
-    end
-  end
-end
+activate :i18n,
+	 :langs => [:en, :es, :fr],
+	 :path => "/:locale/",
+	 :no_fallbacks => true,
+	 :data => "po"
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
 helpers do
-  include GetText
+  include I18n::Gettext::Helpers
 end
 
 # configure :build do
