@@ -3,7 +3,16 @@ $plumedark: #6457a6;
 $gray: #F4F4F4;
 $black: #25213c;
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@font-face {
+  font-family: 'Playfair Display';
+  src:
+    local('Playfair Display Regular'),
+    local('PlayfairDisplay-Regular'),
+    url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html, body {
   padding: 0px;
