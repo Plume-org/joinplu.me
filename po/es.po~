@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 20:35+0100\n"
+"POT-Creation-Date: 2019-01-28 20:14+0100\n"
 "PO-Revision-Date: 2019-01-27 16:01+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,11 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../source/layouts/layout.erb:7
-msgid "Plume: a federated blogging application"
-msgstr "Plume: Una aplicación de blogs federados"
-
-#: ../source/layouts/layout.erb:11 ../source/localizable/index.html.erb:2
+#: ../source/layouts/layout.erb:11 ../source/localizable/index.html.erb:6
 msgid "Plume"
 msgstr "Plume"
 
@@ -53,15 +49,15 @@ msgstr "Sala de chat"
 msgid "Loomio group"
 msgstr "Grupo Loomio"
 
-#: ../source/localizable/index.html.erb:3
+#: ../source/localizable/index.html.erb:7
 msgid "A federated blogging application"
 msgstr "Una aplicación de blogs federados"
 
-#: ../source/localizable/index.html.erb:14
+#: ../source/localizable/index.html.erb:18
 msgid "Write once, publish everywhere"
 msgstr "Escribir una vez, publicar en todas partes"
 
-#: ../source/localizable/index.html.erb:16
+#: ../source/localizable/index.html.erb:20
 msgid ""
 "Plume is not a single website, but an entire interconnected, yet independent "
 "network of what we call <em>instances</em>."
@@ -69,7 +65,7 @@ msgstr ""
 "Plume no es un sitio web único, sino toda una red interconectada, pero "
 "independiente, de lo que llamamos <em>instancias</em>."
 
-#: ../source/localizable/index.html.erb:17
+#: ../source/localizable/index.html.erb:21
 msgid ""
 "You write content from your own instance, but anyone else on any other Plume "
 "instance can enjoy your stories too."
@@ -78,18 +74,18 @@ msgstr ""
 "persona en cualquier otra instancia de Plume también puede disfrutar de sus "
 "historias."
 
-#: ../source/localizable/index.html.erb:25
+#: ../source/localizable/index.html.erb:29
 msgid "Social blogging"
 msgstr "Blogs sociales"
 
-#: ../source/localizable/index.html.erb:27
+#: ../source/localizable/index.html.erb:31
 msgid ""
 "When we write, it is, most of the time, to share something with other people."
 msgstr ""
 "Cuando escribimos, la mayoría de las veces es para compartir algo con otras "
 "personas."
 
-#: ../source/localizable/index.html.erb:28
+#: ../source/localizable/index.html.erb:32
 msgid ""
 "Plume has many features that allow the exchange between writers and readers "
 "to be bi-directional from the get-go."
@@ -97,11 +93,11 @@ msgstr ""
 "Plume tiene muchas características que permiten que el intercambio entre "
 "escritores y lectores sea bidireccional desde el principio."
 
-#: ../source/localizable/index.html.erb:36
+#: ../source/localizable/index.html.erb:40
 msgid "Collaborative writing"
 msgstr "Escritura colaborativa"
 
-#: ../source/localizable/index.html.erb:38
+#: ../source/localizable/index.html.erb:42
 msgid ""
 "Plume also makes it easy to collaborate on an article. Since blogs are not "
 "limited to one author, many people can write in the same blog, improve each "
@@ -111,19 +107,19 @@ msgstr ""
 "se limitan a un solo autor, muchas personas pueden escribir en el mismo "
 "blog, mejorar el trabajo de los demás, para obtener el mejor resultado final."
 
-#: ../source/localizable/index.html.erb:45
+#: ../source/localizable/index.html.erb:49
 msgid "Find an instance"
 msgstr "Buscar una instancia"
 
-#: ../source/localizable/index.html.erb:51
+#: ../source/localizable/index.html.erb:55
 msgid "Enter the Fediverse"
 msgstr "Entra en el Fediverso"
 
-#: ../source/localizable/index.html.erb:55
+#: ../source/localizable/index.html.erb:59
 msgid "Not just Plume"
 msgstr "No sólo Plume"
 
-#: ../source/localizable/index.html.erb:57
+#: ../source/localizable/index.html.erb:61
 msgid ""
 "Plume instances form one part of a huge network, collectively called the "
 "Fediverse. It is made up of many instances, servers with different "
@@ -148,15 +144,15 @@ msgstr ""
 "usted puede comentar y gustar los artículos de Plume de cualquiera de estas "
 "otras instancias."
 
-#: ../source/localizable/index.html.erb:59
+#: ../source/localizable/index.html.erb:63
 msgid "Learn more about the Fediverse"
 msgstr "Aprenda más sobre el Fediverso"
 
-#: ../source/localizable/index.html.erb:66
+#: ../source/localizable/index.html.erb:70
 msgid "Great diversity"
 msgstr "Gran diversidad"
 
-#: ../source/localizable/index.html.erb:68
+#: ../source/localizable/index.html.erb:72
 msgid ""
 "Each instance is hosted and moderated by different peoples across varied "
 "locations of the world, resulting in diverse rules, thematics and ambiance "
@@ -168,7 +164,7 @@ msgstr ""
 "los que se centra. Por lo tanto, una instancia determinada puede ser más "
 "adecuada para ti que otra, dependiendo de tus opiniones e intereses."
 
-#: ../source/localizable/index.html.erb:71
+#: ../source/localizable/index.html.erb:75
 msgid ""
 "And if no existing instance makes you feel at home, you can very well create "
 "your own, if you are a bit adventureous."
@@ -176,15 +172,15 @@ msgstr ""
 "Y si ninguna instancia existente te hace sentir como en casa, puedes crear "
 "la tuya propia, si eres un poco aventurero."
 
-#: ../source/localizable/index.html.erb:73
+#: ../source/localizable/index.html.erb:77
 msgid "Find your dream instance"
 msgstr "Encuentre la instancia de sus sueños"
 
-#: ../source/localizable/index.html.erb:80
+#: ../source/localizable/index.html.erb:84
 msgid "A solid network"
 msgstr "Una red sólida"
 
-#: ../source/localizable/index.html.erb:82
+#: ../source/localizable/index.html.erb:86
 msgid ""
 "Because the Fediverse is mostly backed by volunteers, and not investors, it "
 "is resilient to economic problems. And because of its decentralized nature "
@@ -195,7 +191,7 @@ msgstr ""
 "naturaleza descentralizada, también es más difícil de censurar que las "
 "plataformas tradicionales."
 
-#: ../source/localizable/index.html.erb:84
+#: ../source/localizable/index.html.erb:88
 msgid ""
 "And even if one instance happens to go down, the rest of the network will "
 "continue to work uninterrupted."
@@ -203,11 +199,11 @@ msgstr ""
 "E incluso si una instancia se cae, el resto de la red continuará trabajando "
 "ininterrumpidamente."
 
-#: ../source/localizable/index.html.erb:91
+#: ../source/localizable/index.html.erb:95
 msgid "Open to everyone"
 msgstr ""
 
-#: ../source/localizable/index.html.erb:93
+#: ../source/localizable/index.html.erb:97
 msgid ""
 "Plume is a libre software, based on open standards, like <a href=\"https://"
 "activitypub.rocks\">ActivityPub</a>, which means you can help making it "
@@ -217,7 +213,7 @@ msgstr ""
 "\"https://activitypub.rocks\">ActivityPub</a>, lo que significa que puedes "
 "ayudar a mejorarlo."
 
-#: ../source/localizable/index.html.erb:96
+#: ../source/localizable/index.html.erb:100
 msgid ""
 "We are not only welcoming coders, but really anyone who wants to help: "
 "translators, user experience designers, people with communication skills, or "
@@ -229,6 +225,6 @@ msgstr ""
 "personas con habilidades de comunicación, o cualquier otra persona que "
 "sienta que puede ofrecer algo para hacer avanzar el proyecto."
 
-#: ../source/localizable/index.html.erb:98
+#: ../source/localizable/index.html.erb:102
 msgid "Discover how you can help"
 msgstr "Descubra cómo puede ayudar"

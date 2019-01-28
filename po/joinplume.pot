@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-27 17:35+0100\n"
-"PO-Revision-Date: 2019-01-27 17:35+0100\n"
+"POT-Creation-Date: 2019-01-28 20:35+0100\n"
+"PO-Revision-Date: 2019-01-28 20:35+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,88 +18,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../source/_nav.erb:4
-msgid "Contribute"
+#: ../source/layouts/layout.erb:7
+msgid "Plume: a federated blogging application"
 msgstr ""
 
-#: ../source/_nav.erb:7
-msgid "Documentation"
-msgstr ""
-
-#: ../source/_nav.erb:10
-msgid "Source code"
-msgstr ""
-
-#: ../source/_nav.erb:13
-msgid "Chat room"
-msgstr ""
-
-#: ../source/_nav.erb:16
-msgid "Loomio group"
-msgstr ""
-
-#: ../source/index.html.erb:6
+#: ../source/layouts/layout.erb:11 ../source/localizable/index.html.erb:2
 msgid "Plume"
 msgstr ""
 
-#: ../source/index.html.erb:7
+#: ../source/layouts/layout.erb:19
+msgid "Website under the GPL 3.0 license."
+msgstr ""
+
+#: ../source/layouts/layout.erb:21
+msgid "Source code of this website"
+msgstr ""
+
+#: ../source/localizable/_nav.erb:4
+msgid "Contribute"
+msgstr ""
+
+#: ../source/localizable/_nav.erb:7
+msgid "Documentation"
+msgstr ""
+
+#: ../source/localizable/_nav.erb:10
+msgid "Source code"
+msgstr ""
+
+#: ../source/localizable/_nav.erb:13
+msgid "Chat room"
+msgstr ""
+
+#: ../source/localizable/_nav.erb:16
+msgid "Loomio group"
+msgstr ""
+
+#: ../source/localizable/index.html.erb:3
 msgid "A federated blogging application"
 msgstr ""
 
-#: ../source/index.html.erb:18
+#: ../source/localizable/index.html.erb:14
 msgid "Write once, publish everywhere"
 msgstr ""
 
-#: ../source/index.html.erb:20
+#: ../source/localizable/index.html.erb:16
 msgid ""
 "Plume is not a single website, but an entire interconnected, yet independent n"
 "etwork of what we call <em>instances</em>."
 msgstr ""
 
-#: ../source/index.html.erb:21
+#: ../source/localizable/index.html.erb:17
 msgid ""
 "You write content from your own instance, but anyone else on any other Plume i"
 "nstance can enjoy your stories too."
 msgstr ""
 
-#: ../source/index.html.erb:29
+#: ../source/localizable/index.html.erb:25
 msgid "Social blogging"
 msgstr ""
 
-#: ../source/index.html.erb:31
+#: ../source/localizable/index.html.erb:27
 msgid "When we write, it is, most of the time, to share something with other people."
 msgstr ""
 
-#: ../source/index.html.erb:32
+#: ../source/localizable/index.html.erb:28
 msgid ""
 "Plume has many features that allow the exchange between writers and readers to"
 " be bi-directional from the get-go."
 msgstr ""
 
-#: ../source/index.html.erb:40
+#: ../source/localizable/index.html.erb:36
 msgid "Collaborative writing"
 msgstr ""
 
-#: ../source/index.html.erb:42
+#: ../source/localizable/index.html.erb:38
 msgid ""
 "Plume also makes it easy to collaborate on an article. Since blogs are not lim"
 "ited to one author, many people can write in the same blog, improve each other"
 "'s work, to get to the best final result."
 msgstr ""
 
-#: ../source/index.html.erb:49
+#: ../source/localizable/index.html.erb:45
 msgid "Find an instance"
 msgstr ""
 
-#: ../source/index.html.erb:55
+#: ../source/localizable/index.html.erb:51
 msgid "Enter the Fediverse"
 msgstr ""
 
-#: ../source/index.html.erb:59
+#: ../source/localizable/index.html.erb:55
 msgid "Not just Plume"
 msgstr ""
 
-#: ../source/index.html.erb:61
+#: ../source/localizable/index.html.erb:57
 msgid ""
 "Plume instances form one part of a huge network, collectively called the Fediv"
 "erse. It is made up of many instances, servers with different specifications a"
@@ -112,15 +124,15 @@ msgid ""
 " articles from any of these other instances."
 msgstr ""
 
-#: ../source/index.html.erb:63
+#: ../source/localizable/index.html.erb:59
 msgid "Learn more about the Fediverse"
 msgstr ""
 
-#: ../source/index.html.erb:70
+#: ../source/localizable/index.html.erb:66
 msgid "Great diversity"
 msgstr ""
 
-#: ../source/index.html.erb:72
+#: ../source/localizable/index.html.erb:68
 msgid ""
 "Each instance is hosted and moderated by different peoples across varied locat"
 "ions of the world, resulting in diverse rules, thematics and ambiance that it "
@@ -128,58 +140,50 @@ msgid ""
 "g on your opinions and interests."
 msgstr ""
 
-#: ../source/index.html.erb:75
+#: ../source/localizable/index.html.erb:71
 msgid ""
 "And if no existing instance makes you feel at home, you can very well create y"
 "our own, if you are a bit adventureous."
 msgstr ""
 
-#: ../source/index.html.erb:77
+#: ../source/localizable/index.html.erb:73
 msgid "Find your dream instance"
 msgstr ""
 
-#: ../source/index.html.erb:84
+#: ../source/localizable/index.html.erb:80
 msgid "A solid network"
 msgstr ""
 
-#: ../source/index.html.erb:86
+#: ../source/localizable/index.html.erb:82
 msgid ""
 "Because the Fediverse is mostly backed by volunteers, and not investors, it is"
 " resilient to economic problems. And because of its decentralized nature it is"
 " also harder to censor than traditional platforms."
 msgstr ""
 
-#: ../source/index.html.erb:88
+#: ../source/localizable/index.html.erb:84
 msgid ""
 "And even if one instance happens to go down, the rest of the network will cont"
 "inue to work uninterrupted."
 msgstr ""
 
-#: ../source/index.html.erb:95
+#: ../source/localizable/index.html.erb:91
 msgid "Open to everyone"
 msgstr ""
 
-#: ../source/index.html.erb:97
+#: ../source/localizable/index.html.erb:93
 msgid ""
 "Plume is a libre software, based on open standards, like <a href=\"https://acti"
 "vitypub.rocks\">ActivityPub</a>, which means you can help making it better."
 msgstr ""
 
-#: ../source/index.html.erb:100
+#: ../source/localizable/index.html.erb:96
 msgid ""
 "We are not only welcoming coders, but really anyone who wants to help: transla"
 "tors, user experience designers, people with communication skills, or anybody "
 "else who feels like they can offer something to move the project ahead!"
 msgstr ""
 
-#: ../source/index.html.erb:102
+#: ../source/localizable/index.html.erb:98
 msgid "Discover how you can help"
-msgstr ""
-
-#: ../source/layouts/layout.erb:15
-msgid "Website under the GPL 3.0 license."
-msgstr ""
-
-#: ../source/layouts/layout.erb:17
-msgid "Source code of this website"
 msgstr ""
