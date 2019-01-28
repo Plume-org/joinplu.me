@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Usar el título de la portada de una página si tiene uno -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Plume" %></title>
     <%= stylesheet_link_tag "site" %>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <%= javascript_include_tag "icons" %>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <meta property="og:title" content="<%= _('Plume') %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://joinplu.me/" />
+    <meta property="og:image" content="/images/og-logo.png" />
   </head>
   <body>
     <%= yield %>
