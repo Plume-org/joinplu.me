@@ -43,7 +43,7 @@ msgstr "Documentación"
 
 #: ../source/localizable/_nav.erb:10
 msgid "Source code"
-msgstr ""
+msgstr "Código fuente"
 
 #: ../source/localizable/_nav.erb:13
 msgid "Chat room"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../source/localizable/index.html.erb:91
 msgid "Open to everyone"
-msgstr ""
+msgstr "Abierto para todo"
 
 #: ../source/localizable/index.html.erb:93
 msgid ""
