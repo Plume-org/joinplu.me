@@ -50,6 +50,10 @@
       "name": "Plume.Svnet.fr",
       "description": "A Plume instance running on libre software, hosted in France",
       "url": "https://plume.svnet.fr"
+    },
+    {
+      "name": "Plume.Nixnet.xyz",
+      "url": "https://plume.nixnet.xyz"
     }
   ]
 }
