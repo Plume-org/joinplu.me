@@ -95,7 +95,7 @@ msgstr ""
 #: ../source/localizable/index.html.erb:38
 msgid ""
 "Plume also makes it easy to collaborate on an article. Since blogs are not lim"
-"ited to one author, many people can write in the same blog, improve each other"
+"ited to one author, many people can write on the same blog and improve each other"
 "'s work, to get to the best final result."
 msgstr ""
 
