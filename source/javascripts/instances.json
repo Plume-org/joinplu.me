@@ -29,6 +29,10 @@
       "description": "A welcoming Plume instance for everyone, run by enthusiasts",
       "url": "https://lorem.club"
     },
+    {
+      "name": "Plume.Nixnet.xyz",
+      "url": "https://plume.nixnet.xyz"
+    },
      {
       "name": "Les Nouvelles d'Ombreport",
       "url": "https://plume.ombreport.info"
@@ -52,8 +56,8 @@
       "url": "https://plume.svnet.fr"
     },
     {
-      "name": "Plume.Nixnet.xyz",
-      "url": "https://plume.nixnet.xyz"
+      "name": "https://Blog.mevo.xyz",
+      "url": "https://blog.mevo.xyz"
     }
   ]
 }
