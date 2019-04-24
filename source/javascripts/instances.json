@@ -56,6 +56,11 @@
       "url": "https://plume.svnet.fr"
     },
     {
+      "name": "Blog.Antopie.org",
+      "description": "A Plume instance with a nice dark flair to it",
+      "url": "https://blog.antopie.org"
+    },
+    {
       "name": "Blog.mevo.xyz",
       "url": "https://blog.mevo.xyz"
     }
