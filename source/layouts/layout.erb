@@ -5,6 +5,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Plume: a federated blogging application</title>
+
+    <% if ENV['CROWDIN'] == 'on' %>
+      <script type="text/javascript">
+        var _jipt = [];
+        _jipt.push(['project', 'joinplume']);
+        _jipt.push(['escape', function() {
+          window.location.href = 'https://joinplu.me';
+        }]);
+      </script>
+      <script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
+    <% end %>
+
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "icons" %>
     <link rel="icon" type="image/png" href="/images/favicon.png">
