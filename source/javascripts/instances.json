@@ -2,7 +2,7 @@
   "instances": [
     {
       "name": "Fediverse.blog",
-      "description": "A generalistic instance for people to see what Plume is like",
+      "description": "The oldest public, generalistic instance for people to see what Plume is like",
       "url": "https://fediverse.blog"
     },
     {
@@ -37,6 +37,10 @@
     {
       "name": "plume.Fentanyl.Ltd",
       "url": "https://plume.fentanyl.ltd"
+    },
+    {
+      "name": "metagnosis.xyz",
+      "url": "https://metagnosis.xyz"
     },
      {
       "name": "Les Nouvelles d'Ombreport",
