@@ -16,23 +16,6 @@
       "url": "https://cafe.sunbeam.city"
     },
     {
-      "name": "plume.hostux.coffee",
-      "url": "https://plume.hostux.coffee"
-    },
-    {
-      "name": "Gospel of Celly",
-      "url": "https://gospel.sunbutt.faith"
-    },
-    {
-      "name": "blog.ksteimel.duckdns.org",
-      "url": "https://blog.ksteimel.duckdns.org"
-    },
-    {
-      "name": "DeepspaceRose.garden",
-      "description": "A small instance for writers who explore, and their curious readers",
-      "url": "https://deepspacerose.garden"
-    },
-    {
       "name": "Lorem.Club",
       "description": "A welcoming Plume instance for everyone, run by enthusiasts",
       "url": "https://lorem.club"
@@ -43,32 +26,15 @@
       "url": "https://plume.nixnet.xyz"
     },
     {
-      "name": "Write.WTF",
-      "description": "A general instance for anyone, on any topic",
-      "url": "https://write.wtf"
-    },
-    {
       "name": "Hey.dou.bet",
       "description": "Here to have a place for you. Part of the dou.bet network of decentralized services",
       "url": "https://hey.dou.bet"
     },
     {
-      "name": "plume.Fentanyl.Ltd",
-      "url": "https://plume.fentanyl.ltd"
-    },
-    {
-      "name": "metagnosis.xyz",
-      "url": "https://metagnosis.xyz"
-    },
-    {
-      "name": "plume.vvn.space",
-      "url": "https://plume.vvn.space"
-    },
-    {
       "name": "amplifi.casa",
       "url": "https://amplifi.casa"
     },
-     {
+    {
       "name": "Les Nouvelles d'Ombreport",
       "url": "https://plume.ombreport.info"
     },
@@ -81,23 +47,34 @@
       "name": "catlife.drycat.fr",
       "url": "https://catlife.drycat.fr"
     },
-     {
-      "name": "blog.famille-link.fr",
-      "url": "https://blog.famille-link.fr"
-    },
-    {
-      "name": "Plume.Svnet.fr",
-      "description": "A Plume instance running on libre software, hosted in France",
-      "url": "https://plume.svnet.fr"
-    },
     {
       "name": "Blog.Antopie.org",
       "description": "A Plume instance with a nice dark flair to it",
       "url": "https://blog.antopie.org"
     },
     {
-      "name": "Blog.mevo.xyz",
-      "url": "https://blog.mevo.xyz"
+      "name": "FédiQuébec",
+      "description": "Instance francophone de Plume hébergée au Québec et principalement destinée aux Québécois",
+      "url": "https://plume.fedi.quebec"
+    },
+    {
+      "name": "bashell.com",
+      "url": "https://bashell.com"
+    },
+    {
+      "name": "Palom.be",
+      "description": "Un refuge pour les écrivain·e·s souhaitant partager leurs nouvelles via la magie du Fediverse",
+      "url": "https://palom.be"
+    },
+    {
+      "name": "Let's Write",
+      "description": "A small Plume instance",
+      "url": "https://write.theres.life"
+    },
+    {
+      "name": "Plume Luciférienne",
+      "description": "Instance personnelle mais ouverte à tou·tes",
+      "url": "https://plume.luciferi.st"
     }
   ]
 }
