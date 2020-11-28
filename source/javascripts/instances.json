@@ -6,11 +6,6 @@
       "url": "https://fediverse.blog"
     },
     {
-      "name": "Plume on Mastodon.Host",
-      "description": "A Plume instance served by the team behind Mastodon.host",
-      "url": "https://plume.mastodon.host"
-    },
-    {
       "name": "Lorem.Club",
       "description": "A welcoming Plume instance for everyone, run by enthusiasts",
       "url": "https://lorem.club"
@@ -32,11 +27,6 @@
     {
       "name": "Les Nouvelles d'Ombreport",
       "url": "https://plume.ombreport.info"
-    },
-    {
-      "name": "Plume OpenAlgeria",
-      "description": "A Plume instance, by the OpenAlgeria team",
-      "url": "https://plume.social"
     },
     {
       "name": "catlife.drycat.fr",
