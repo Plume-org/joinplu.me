@@ -6,16 +6,6 @@
       "url": "https://fediverse.blog"
     },
     {
-      "name": "Plume on Mastodon.Host",
-      "description": "A Plume instance served by the team behind Mastodon.host",
-      "url": "https://plume.mastodon.host"
-    },
-    {
-      "name": "Cafe.Sunbeam.City",
-      "description": "A part of the Sunbeam.City cooperative",
-      "url": "https://cafe.sunbeam.city"
-    },
-    {
       "name": "Lorem.Club",
       "description": "A welcoming Plume instance for everyone, run by enthusiasts",
       "url": "https://lorem.club"
@@ -37,11 +27,6 @@
     {
       "name": "Les Nouvelles d'Ombreport",
       "url": "https://plume.ombreport.info"
-    },
-    {
-      "name": "Plume OpenAlgeria",
-      "description": "A Plume instance, by the OpenAlgeria team",
-      "url": "https://plume.social"
     },
     {
       "name": "catlife.drycat.fr",
@@ -75,6 +60,11 @@
       "name": "Plume Luciférienne",
       "description": "Instance personnelle mais ouverte à tou·tes",
       "url": "https://plume.luciferi.st"
+    },
+    {
+      "name": "StemyPlume",
+      "description": "Instance pour mon usage personnel, mais accessible à qui veut.",
+      "url": "https://plume.stemy.me"
     }
   ]
 }
