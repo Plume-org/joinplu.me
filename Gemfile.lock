@@ -23,7 +23,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.2.0)
     ffi (1.13.1)
-    haml (5.2.0)
+    haml (5.2.1)
       temple (>= 0.8.0)
       tilt
     hamster (3.0.0)
@@ -81,6 +81,7 @@ GEM
     parallel (1.20.1)
     public_suffix (4.0.6)
     rack (2.2.3)
+    rake (13.0.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -103,6 +104,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
+  rake
   tzinfo-data
   wdm (~> 0.1)
 
