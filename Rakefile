@@ -5,11 +5,12 @@ TRANS_DIR = "trans"
 
 desc "Build site"
 multitask :build_site => [:build_base, "crowdin:download"] do
-  Pathname.glob("#{TRANS_DIR}/**/*.html.*").select(&:file?).each do |path|
+  Pathname.glob("#{TRANS_DIR}/**/*.html").select(&:file?).each do |path|
     content = path.read
     content.sub! /<script type="text\/javascript" src="\/\/cdn.crowdin.com\/jipt\/jipt.js"><\/script>/, ""
     dest = Pathname(path.to_path.sub(TRANS_DIR, BUILD_DIR))
     $stderr.puts "copy #{path} -> #{dest}"
+    dest.parent.mkpath
     dest.write content
   end
 end
