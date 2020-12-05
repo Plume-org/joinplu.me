@@ -3,6 +3,8 @@ require "pathname"
 BUILD_DIR = "build"
 TRANS_DIR = "trans"
 
+task :default => [:build_trans, "crowdin:upload", :build_site]
+
 desc "Build site"
 multitask :build_site => [:build_base, "crowdin:download"] do
   Pathname.glob("#{TRANS_DIR}/**/*.html").select(&:file?).each do |path|
@@ -22,7 +24,7 @@ end
 desc "Build site for translation"
 task :build_trans do
   env = {"CROWDIN" => "on"}
-  sh env, "middleman", BUILD_DIR, "--build-dir", TRANS_DIR
+  sh env, "middleman", "build", "--build-dir", TRANS_DIR
 end
 
 namespace :crowdin do
@@ -33,6 +35,6 @@ namespace :crowdin do
 
   desc "Upload translation sources"
   task :upload do
-    sh "crowdin", "upload"
+    sh "crowdin", "upload", "sources"
   end
 end
