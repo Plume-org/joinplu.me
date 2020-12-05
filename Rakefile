@@ -3,6 +3,8 @@ require "pathname"
 BUILD_DIR = "build"
 TRANS_DIR = "trans"
 
+task :default => [:build_trans, "crowdin:upload", :build_site]
+
 desc "Build site"
 multitask :build_site => [:build_base, "crowdin:download"] do
   Pathname.glob("#{TRANS_DIR}/**/*.html").select(&:file?).each do |path|
