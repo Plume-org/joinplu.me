@@ -22,7 +22,7 @@ end
 desc "Build site for translation"
 task :build_trans do
   env = {"CROWDIN" => "on"}
-  sh env, "middleman", BUILD_DIR, "--build-dir", TRANS_DIR
+  sh env, "middleman", "build", "--build-dir", TRANS_DIR
 end
 
 namespace :crowdin do
