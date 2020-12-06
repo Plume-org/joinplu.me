@@ -17,6 +17,10 @@ CROWDIN_SNIPPET = <<EOS
     <script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
 EOS
 
+class Pathname
+  alias to_str to_s
+end
+
 task :default => [:build_trans, :build_site]
 
 desc "Build site"
@@ -37,23 +41,23 @@ end
 
 desc "Build site for translation"
 task :build_trans => "crowdin:download_pseudo" do
-  sh "middleman", "build", "--build-dir", TRANS_DIR.to_path
+  sh "middleman", "build", "--build-dir", TRANS_DIR
 
   (LOCALE_DIR/PSEUDO_LANG).glob("**/*.html").each do |html|
     doc = html.read
     doc.sub! "<head>", "<head>" + CROWDIN_SNIPPET
-    dest = Pathname(html.to_path.sub((LOCALE_DIR/PSEUDO_LANG).to_path, TRANS_DIR.to_path))
+    dest = Pathname(html.to_path.sub(LOCALE_DIR/PSEUDO_LANG, TRANS_DIR))
     dest.write doc
   end
 end
 
 task :build_trans_src do
-  sh "middleman", "build", "--build-dir", LOCALE_DIR.to_path
+  sh "middleman", "build", "--build-dir", LOCALE_DIR
 end
 
 desc "Deploy translate.joinplu.me"
 task :deploy_trans => :build_trans do
-  sh "netlify", "deploy", "--dir", TRANS_DIR.to_path, "--prod"
+  sh "netlify", "deploy", "--dir", TRANS_DIR, "--prod"
 end
 
 namespace :crowdin do
