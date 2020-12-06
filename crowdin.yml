@@ -21,7 +21,7 @@ files: [
   # Source files filter
   # e.g. "/resources/en/*.json"
   #
-  "source" : "/build/index.html",
+  "source" : "/trans/index.html",
 
   #
   # Where translations will be placed
