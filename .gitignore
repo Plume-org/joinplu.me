@@ -3,5 +3,9 @@
 .DS_Store
 .sass-cache
 build/
+trans/
+translate/
 .po~
-translations
+
+# Local Netlify folder
+.netlify
