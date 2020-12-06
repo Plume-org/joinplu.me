@@ -1,16 +1,30 @@
 require "pathname"
 
-BUILD_DIR = "build"
-TRANS_DIR = "trans"
+BUILD_DIR = Pathname("build")
+LOCALE_DIR = Pathname("trans")
+TRANS_DIR = Pathname("translate")
+PSEUDO_LANG = "ach"
 
-task :default => [:build_trans, "crowdin:upload", :build_site]
+CROWDIN_SNIPPET = <<EOS
+
+    <script type="text/javascript">
+      var _jipt = [];
+      _jipt.push(['project', 'joinplume']);
+      _jipt.push(['escape', function() {
+        window.location.href = 'https://joinplu.me';
+      }]);
+    </script>
+    <script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
+EOS
+
+task :default => [:build_trans, :build_site]
 
 desc "Build site"
 multitask :build_site => [:build_base, "crowdin:download"] do
-  Pathname.glob("#{TRANS_DIR}/**/*.html").select(&:file?).each do |path|
+  Pathname.glob("#{LOCALE_DIR}/**/*.html").select(&:file?).each do |path|
     content = path.read
     content.sub! /<script type="text\/javascript" src="\/\/cdn.crowdin.com\/jipt\/jipt.js"><\/script>/, ""
-    dest = Pathname(path.to_path.sub(TRANS_DIR, BUILD_DIR))
+    dest = Pathname(path.to_path.sub(LOCALE_DIR, BUILD_DIR))
     $stderr.puts "copy #{path} -> #{dest}"
     dest.parent.mkpath
     dest.write content
@@ -22,9 +36,24 @@ task :build_base do
 end
 
 desc "Build site for translation"
-task :build_trans do
-  env = {"CROWDIN" => "on"}
-  sh env, "middleman", "build", "--build-dir", TRANS_DIR
+task :build_trans => "crowdin:download_pseudo" do
+  sh "middleman", "build", "--build-dir", TRANS_DIR.to_path
+
+  (LOCALE_DIR/PSEUDO_LANG).glob("**/*.html").each do |html|
+    doc = html.read
+    doc.sub! "<head>", "<head>" + CROWDIN_SNIPPET
+    dest = Pathname(html.to_path.sub((LOCALE_DIR/PSEUDO_LANG).to_path, TRANS_DIR.to_path))
+    dest.write doc
+  end
+end
+
+task :build_trans_src do
+  sh "middleman", "build", "--build-dir", LOCALE_DIR.to_path
+end
+
+desc "Deploy translate.joinplu.me"
+task :deploy_trans => :build_trans do
+  sh "netlify", "deploy", "--dir", TRANS_DIR.to_path, "--prod"
 end
 
 namespace :crowdin do
@@ -34,7 +63,11 @@ namespace :crowdin do
   end
 
   desc "Upload translation sources"
-  task :upload do
+  task :upload => :build_trans_src do
     sh "crowdin", "upload", "sources"
+  end
+
+  task :download_pseudo do
+    sh "crowdin", "download", "--language", PSEUDO_LANG
   end
 end
