@@ -39,7 +39,7 @@ task :build_base do
   sh "middleman", "build"
 end
 
-desc "Build site for translation"
+desc "Build site for translate.joinplu.me"
 task :build_trans => "crowdin:download_pseudo" do
   sh "middleman", "build", "--build-dir", TRANS_DIR
 
