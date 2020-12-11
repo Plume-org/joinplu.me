@@ -65,6 +65,11 @@
       "name": "StemyPlume",
       "description": "Instance pour mon usage personnel, mais accessible à qui veut.",
       "url": "https://plume.stemy.me"
+    },
+    {
+      "name": "Anartist",
+      "description": "Anartist es una plataforma autogestionada por y para artistas.",
+      "url": "https://blog.anartist.org/"
     }
   ]
 }
