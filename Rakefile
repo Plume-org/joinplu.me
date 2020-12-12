@@ -29,6 +29,7 @@ multitask :build_site => [:build_base, "crowdin:download"] do
     content = path.read
     content.sub! /<script type="text\/javascript" src="\/\/cdn.crowdin.com\/jipt\/jipt.js"><\/script>/, ""
     dest = Pathname(path.to_path.sub(LOCALE_DIR, BUILD_DIR))
+    next if dest.file?
     $stderr.puts "copy #{path} -> #{dest}"
     dest.parent.mkpath
     dest.write content
@@ -62,7 +63,7 @@ end
 
 namespace :crowdin do
   desc "Download translations"
-  task :download do
+  task :download => :build_trans_src do
     sh "crowdin", "download"
   end
 

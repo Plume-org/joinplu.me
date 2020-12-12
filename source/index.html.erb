@@ -2,6 +2,14 @@
   <h1>Plume</h1>
   <h2>A federated blogging application</h2>
   <img src="/images/logo.png"/>
+  <div class="language-switcher">
+    <button aria-controls="languages" aria-haspopup="true" aria-expanded="false"><img src="/images/LanguageIcon.png" alt="switch language"></button>
+    <ul id="languages" class="languages" aria-hidden="true">
+      <% data.languages.each_pair do |code, name| %>
+      <li lang="<%=h code %>" translate="no" class="language"><%= link_to h(name), code == "en" ? "/" : "/#{code}/", hreflang: h(code), rel: "alternate" %></li>
+      <% end %>
+    </ul>
+  </div>
 </header>
 
 <main>
