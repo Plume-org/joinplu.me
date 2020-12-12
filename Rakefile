@@ -24,7 +24,7 @@ end
 task :default => [:build_trans, :build_site]
 
 desc "Build site"
-multitask :build_site => [:build_base, "crowdin:download"] do
+task :build_site => [:build_base, "crowdin:download"] do
   Pathname.glob("#{LOCALE_DIR}/**/*.html").select(&:file?).each do |path|
     content = path.read
     content.sub! /<script type="text\/javascript" src="\/\/cdn.crowdin.com\/jipt\/jipt.js"><\/script>/, ""
@@ -56,9 +56,14 @@ task :build_trans_src do
   sh "middleman", "build", "--build-dir", LOCALE_DIR
 end
 
+desc "Deploy joinplue.me"
+task :deploy => :build_site do
+  sh "netlify", "deploy", "--site", "12885026-8536-4072-b216-04d71e8f84be", "--dir", BUILD_DIR, "--prod"
+end
+
 desc "Deploy translate.joinplu.me"
 task :deploy_trans => :build_trans do
-  sh "netlify", "deploy", "--dir", TRANS_DIR, "--prod"
+  sh "netlify", "deploy", "--site", "0812f781-8b3a-481d-b4fb-bc5cb5254f19", "--dir", TRANS_DIR, "--prod"
 end
 
 namespace :crowdin do
@@ -73,6 +78,6 @@ namespace :crowdin do
   end
 
   task :download_pseudo do
-    sh "crowdin", "download", "--language", PSEUDO_LANG
+    sh "crowdin", "download", "--pseudo"
   end
 end
