@@ -3,6 +3,11 @@ $plumedark: #6457a6;
 $gray: #F4F4F4;
 $black: #25213c;
 
+:root {
+  --lang-switcher-margin: 2vw;
+  --lang-switcher-width: 2em;
+}
+
 @font-face {
   font-family: 'Playfair Display';
   src:
@@ -43,8 +48,8 @@ header {
 
   .language-switcher {
     position: absolute;
-    top: 2vw;
-    right: 2vw;
+    top: var(--lang-switcher-margin);
+    right: var(--lang-switcher-margin);
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -159,7 +164,7 @@ section {
 
   [aria-haspopup] {
     display: block;
-    width: 2em;
+    width: var(--lang-switcher-width);
     padding: 0;
     line-height: 1;
     border: none;
@@ -189,6 +194,9 @@ section {
     list-style: none;
     margin: 0;
     padding: 0.5em 0;
+    max-height: calc(90vh - var(--lang-switcher-margin) - var(--lang-switcher-width));
+    overflow-y: scroll;
+    overscroll-behavior: contain;
     border-radius: 0.1em;
     background: #ffffff;
     box-shadow: 0 0 16px -6px rgba(0, 0, 0, 0.6);
@@ -250,6 +258,11 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  :root {
+    --lang-switcher-margin: 3vw;
+    --lang-switcher-width: 3em;
+  }
+
   body > main > * {
     padding: 0 5vw;
   }
