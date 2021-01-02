@@ -17,8 +17,12 @@ It is using middleman.
 - `netlify` command v2
 - Environment variable `NETLIFY_AUTH_TOKEN`
 
+### Ruby
+
+- Execute `bundle install --path=vendor/bundle` at first
+
 ## Usefull commands
 
-- `middleman` for live preview during development
+- `bundle exec middleman` for live preview during development
 - `bundle exec rake build_site` when deploying
 - `bundle exec rake deploy_trans` when deploying https://translate.joinplu.me/
