@@ -10,11 +10,6 @@
 	"url": "https://lorem.club"
     },
     {
-	"name": "Plume.Nixnet.xyz",
-	"description": "An all-encompassing, up-to-date instance",
-	"url": "https://plume.nixnet.xyz"
-    },
-    {
 	"name": "Hey.dou.bet",
 	"description": "Here to have a place for you. Part of the dou.bet network of decentralized services",
 	"url": "https://hey.dou.bet"
@@ -22,14 +17,6 @@
     {
 	"name": "amplifi.casa",
 	"url": "https://amplifi.casa"
-    },
-    {
-	"name": "Les Nouvelles d'Ombreport",
-	"url": "https://plume.ombreport.info"
-    },
-    {
-	"name": "catlife.drycat.fr",
-	"url": "https://catlife.drycat.fr"
     },
     {
 	"name": "Blog.Antopie.org",
@@ -40,10 +27,6 @@
 	"name": "FédiQuébec",
 	"description": "Instance francophone de Plume hébergée au Québec et principalement destinée aux Québécois",
 	"url": "https://plume.fedi.quebec"
-    },
-    {
-	"name": "bashell.com",
-	"url": "https://bashell.com"
     },
     {
 	"name": "Palom.be",
