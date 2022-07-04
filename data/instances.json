@@ -1,0 +1,78 @@
+[
+    {
+	"name": "Fediverse.blog",
+	"description": "The oldest public, generalistic instance for people to see what Plume is like",
+	"url": "https://fediverse.blog"
+    },
+    {
+	"name": "Lorem.Club",
+	"description": "A welcoming Plume instance for everyone, run by enthusiasts",
+	"url": "https://lorem.club"
+    },
+    {
+	"name": "Plume.Nixnet.xyz",
+	"description": "An all-encompassing, up-to-date instance",
+	"url": "https://plume.nixnet.xyz"
+    },
+    {
+	"name": "Hey.dou.bet",
+	"description": "Here to have a place for you. Part of the dou.bet network of decentralized services",
+	"url": "https://hey.dou.bet"
+    },
+    {
+	"name": "amplifi.casa",
+	"url": "https://amplifi.casa"
+    },
+    {
+	"name": "Les Nouvelles d'Ombreport",
+	"url": "https://plume.ombreport.info"
+    },
+    {
+	"name": "catlife.drycat.fr",
+	"url": "https://catlife.drycat.fr"
+    },
+    {
+	"name": "Blog.Antopie.org",
+	"description": "A Plume instance with a nice dark flair to it",
+	"url": "https://blog.antopie.org"
+    },
+    {
+	"name": "FédiQuébec",
+	"description": "Instance francophone de Plume hébergée au Québec et principalement destinée aux Québécois",
+	"url": "https://plume.fedi.quebec"
+    },
+    {
+	"name": "bashell.com",
+	"url": "https://bashell.com"
+    },
+    {
+	"name": "Palom.be",
+	"description": "Un refuge pour les écrivain·e·s souhaitant partager leurs nouvelles via la magie du Fediverse",
+	"url": "https://palom.be"
+    },
+    {
+	"name": "Let's Write",
+	"description": "A small Plume instance",
+	"url": "https://write.theres.life"
+    },
+    {
+	"name": "Plume Luciférienne",
+	"description": "Instance personnelle mais ouverte à tou·tes",
+	"url": "https://plume.luciferi.st"
+    },
+    {
+	"name": "StemyPlume",
+	"description": "Instance pour mon usage personnel, mais accessible à qui veut.",
+	"url": "https://plume.stemy.me"
+    },
+    {
+	"name": "Anartist",
+	"description": "Anartist es una plataforma autogestionada por y para artistas.",
+	"url": "https://blog.anartist.org/"
+    },
+    {
+	"name": "Witch Academy",
+	"description": "Small personal instance for anyone wishing to write, on any topic. Originally setup for friends, opened to all.",
+	"url": "https://blog.witch.academy"
+    }
+]

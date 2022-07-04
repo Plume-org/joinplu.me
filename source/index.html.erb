@@ -57,6 +57,14 @@
   <section>
     <h2>Find an instance</h2>
     <ul id="instances">
+      <% data.instances.each do |instance| %>
+	  <li>
+	      <a href="<%= instance["url"]  %>" title="<%= instance["url"] %>"><%= instance["name"] %></a>
+	      <% if not instance["description"].blank? %>
+		  — <%= instance["description"]%>
+	      <% end %>
+	  </li>
+      <% end %>
     </ul>
   </section>
 
