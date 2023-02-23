@@ -3,7 +3,7 @@ require "pathname"
 BUILD_DIR = Pathname("build")
 LOCALE_DIR = Pathname("trans")
 TRANS_DIR = Pathname("translate")
-PSEUDO_LANG = "ach"
+PSEUDO_LANG = "ach-UG"
 
 CROWDIN_SNIPPET = <<EOS
 
